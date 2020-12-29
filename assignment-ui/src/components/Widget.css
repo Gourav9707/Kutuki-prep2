@@ -1,0 +1,21 @@
+.W-container{
+    height: 100%;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.W-image{
+    margin: 8px;
+}
+.W-head{
+    font-size: 0.8em;
+    font-weight: 900;
+    margin: 8px;
+}
+.W-para{
+    margin: 8px;
+    font-size: 0.7em;
+}

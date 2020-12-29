@@ -1,0 +1,39 @@
+.main-footer {
+    color: white;
+    background-color:#181818;
+    /* padding-top: 3em; */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .frow{
+    display: flex;
+    margin: 7px;
+  }
+  .fcol{
+    margin: 8px;
+  }
+  
+  
+  .whatsapp{
+    min-height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin-bottom: 30px;
+}
+
+.icon{
+    height: 60px;
+    width: 60px;
+}
