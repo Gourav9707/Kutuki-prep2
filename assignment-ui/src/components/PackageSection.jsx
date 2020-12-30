@@ -6,6 +6,39 @@ import Genius from '../assests/genius.jpg'
 import Learner from '../assests/learner.jpg'
 
 const PackageSection = () => {
+  const coloumn = ["ClassNumber", "Day", "Time"];
+  const data = [
+    {
+      classno: "Class 1: 06-Jan",
+      day: "Wednesday",
+      time: "11:00 AM – 11:45 AM (IST)"
+    },
+    {
+        classno: "Class 1: 06-Jan",
+        day: "Wednesday",
+        time: "11:00 AM – 11:45 AM (IST)"
+      },
+      {
+        classno: "Class 1: 06-Jan",
+        day: "Wednesday",
+        time: "11:00 AM – 11:45 AM (IST)"
+      },
+      {
+        classno: "Class 1: 06-Jan",
+        day: "Wednesday",
+        time: "11:00 AM – 11:45 AM (IST)"
+      },
+      {
+        classno: "Class 1: 06-Jan",
+        day: "Wednesday",
+        time: "11:00 AM – 11:45 AM (IST)"
+      },
+      {
+        classno: "Class 1: 06-Jan",
+        day: "Wednesday",
+        time: "11:00 AM – 11:45 AM (IST)"
+      },
+  ];
     return (
         <div className='package'>
 
@@ -36,6 +69,8 @@ const PackageSection = () => {
                         <p style={{textAlign:'center'}}>* – 1 month subscription to Kutuki’s app free!</p>
                         </div>
                     )}
+                    coloumn={coloumn}
+                    data={data}
                />
 
                 <PackageItems
@@ -60,6 +95,8 @@ const PackageSection = () => {
                         <p style={{textAlign:'center'}}>* – 3  month subscription to Kutuki’s app free!</p>
                         </div>
                     )}
+                    coloumn={coloumn}
+                    data={data}
                />
 
                 <PackageItems
@@ -85,6 +122,8 @@ const PackageSection = () => {
                         <p style={{textAlign:'center'}}>* – 6 month subscription to Kutuki’s app free!</p>
                         </div>
                     )}
+                    coloumn={coloumn}
+                    data={data}
                />
               
 

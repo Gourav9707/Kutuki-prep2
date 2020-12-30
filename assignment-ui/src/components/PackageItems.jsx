@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
+import Table from './Table'
 
 const PackageItems = (props) => {
     return (
@@ -35,9 +36,16 @@ const PackageItems = (props) => {
             </div>
         </div>
 
-        <div className='packageitem'>
-            <h4 style={{margin:'5px'}}>Upcoming Batch - View Schedule</h4>
+        <div className='packageitem upcomingbatch'>
+            <h4 style={{margin:'5px'}}>Upcoming Batch - View Schedule </h4>
+            <ArrowRightIcon/>
             <hr/>
+        </div>
+        <div className='packageitem'>
+            <Table
+                coloumn={props.coloumn}
+                data={props.data}
+            />
         </div>
        <div className='pacakageitem'>
             <Button
