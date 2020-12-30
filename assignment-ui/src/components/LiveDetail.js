@@ -1,6 +1,7 @@
 import React from 'react'
 import './LiveDetail.css'
 import Widget from './Widget'
+import PackageSection from './PackageSection';
 import Pic from '../assests/pic.png'
 import AgePic from '../assests/agepic.png'
 import CertifiedPic from '../assests/certifiedpic.png'
@@ -94,6 +95,9 @@ const LiveDetail = (props) => {
                         description={"Tracing and reading games and printable worksheets"}
                         />
 
+                </div>
+                <div className='L-row'>
+                    <PackageSection/>
                 </div>
 
             </div>
