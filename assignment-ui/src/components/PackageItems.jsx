@@ -7,8 +7,8 @@ const PackageItems = (props) => {
     return (
         <div className='packageelement'>
 
-        <div className='packageimage packageitem'>
-            <img src={props.image}/>
+        <div className='packageitem'>
+            <img src={props.image} width='160' height='160'/>
         </div>
 
         <div className='packageitem'>

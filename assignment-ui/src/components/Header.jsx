@@ -19,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: theme.palette.background.paper,
     },
     logo: {
-        maxWidth: 100,
+        maxWidth: 90,
+        maxHeight: 50,
       },
       title: {
         flexGrow: 1,
@@ -30,7 +31,6 @@ export default function Header() {
     const classes = useStyles();
     const [value, setValue] = React.useState(2);
     const [anchorEl, setAnchorEl] = React.useState(null);
-    const [open,setOpen]=React.useState(false)
 
     const handleClick = (event) => {
       setAnchorEl(event.currentTarget);
@@ -51,7 +51,7 @@ export default function Header() {
           <Grid justify={"space-between"} container>
 
             <Grid xs={1} item>
-                <img src={Logo} alt="logo" className={classes.logo} />
+                <img src={Logo} alt="logo" className={classes.logo} style={{marginTop:'7px'}} />
             </Grid>
           
             <Grid xs={8} item>

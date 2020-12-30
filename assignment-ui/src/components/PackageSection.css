@@ -38,11 +38,12 @@
     cursor: pointer;
 }
 
-.packageimage{
-    height: 180px;
-    width: 160px;
+/* .packageimage{
+    height: 100px;
+    width: 180px;
     margin: 2px auto;
-}
+    background-color: cyan;
+} */
 .classdetails{
     display: flex;
     flex-direction: column;

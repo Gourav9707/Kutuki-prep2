@@ -30,7 +30,7 @@ const LiveDetail = (props) => {
                     </div>
 
                     <div className='L-col L-image'>
-                        <img src={props.image}/>
+                        <img src={props.image} width='550' height='550'/>
                     </div>
 
                 </div>
@@ -64,7 +64,7 @@ const LiveDetail = (props) => {
                     </div>
 
                     <div className='L-col image'>
-                        <img src={Pic}/>
+                        <img src={Pic} width='340' height='220'/>
                     </div>
 
                 </div>

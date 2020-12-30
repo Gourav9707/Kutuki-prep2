@@ -12,7 +12,7 @@ const CardDisplay = (props) => {
             <div className='row'>
 
                 <div className='col image'>
-                    <img src={props.image}/>
+                    <img src={props.image} width='300' height='280'/>
                 </div>
 
                 <div className='col'>
