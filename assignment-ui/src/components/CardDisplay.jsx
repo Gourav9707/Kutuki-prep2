@@ -17,7 +17,7 @@ const CardDisplay = (props) => {
 
                 <div className='col'>
                     <div className= 'header'>
-                        {props.head}
+                        <h2>{props.head}</h2>
                     </div>
                     <div className='content'>
                         <p>
