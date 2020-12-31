@@ -3,7 +3,7 @@ import React from "react";
 export default function Table({ coloumn, data }) {
   return (
     <>
-      <table>
+      <table style={{fontFamily: 'Open Sans'}}>
         <tr className='tablehead'>
           {coloumn.map((el) => (
             <th >{el}</th>

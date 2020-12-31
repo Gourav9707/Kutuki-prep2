@@ -38,12 +38,7 @@
     cursor: pointer;
 }
 
-/* .packageimage{
-    height: 100px;
-    width: 180px;
-    margin: 2px auto;
-    background-color: cyan;
-} */
+
 .classdetails{
     display: flex;
     flex-direction: column;

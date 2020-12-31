@@ -54,7 +54,7 @@ const PackageSection = () => {
                     head={(<h2 style={{color:'yellow'}}>Little Learners</h2>)}
                     subhead={(<p style={{textAlign:'center'}}>For 3 – 4 Year Olds</p>)}
                     list={(
-                        <ul style={{listStyle:'none', textAlign:'left'}}> 
+                        <ul style={{listStyle:'none', textAlign:'left', fontFamily: 'Open Sans'}}> 
                             <li>Listen, Identify and Blend 10  Letter sounds</li>
                             <li>Form basic CVC words</li>
                             <li>Letter Writing Practice</li>
@@ -78,7 +78,7 @@ const PackageSection = () => {
                     head={(<h2 style={{color:'blue'}}>Curious Champions</h2>)}
                     subhead={(<p style={{textAlign:'center'}}>For 4 – 5 Year Olds</p>)}
                     list={(
-                        <ul style={{listStyle:'none', textAlign:'left'}}> 
+                        <ul style={{listStyle:'none', textAlign:'left',fontFamily: 'Open Sans'}}> 
                             <li>Listen, Identify and Blend 26 Letter sounds</li>
                             <li>Master CVC words</li>
                             <li>Sight Words</li>
@@ -104,7 +104,7 @@ const PackageSection = () => {
                     head={(<h2 style={{color:'green'}}>Mighty Genius</h2>)}
                     subhead={(<p style={{textAlign:'center'}}>For 5+ Year Olds</p>)}
                     list={(
-                        <ul style={{listStyle:'none', textAlign:'left'}}> 
+                        <ul style={{listStyle:'none', textAlign:'left',fontFamily: 'Open Sans'}}> 
                             <li>Listen, Identify and Blend 26 Letter sounds</li>
                             <li>Master CVC and Sight words </li>
                             <li>Master Short and Long vowel</li>

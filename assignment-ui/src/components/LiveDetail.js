@@ -54,7 +54,7 @@ const LiveDetail = (props) => {
                 <div className='L-row'>
 
                     <div className='L-col' >
-                        <ul style={{ listStyle:'none', textAlign:'left'}}>
+                        <ul style={{ listStyle:'none', textAlign:'left',fontFamily: 'Open Sans'}}>
                             <li style={{contain: '✓ '}}>Develop Reading Fluency</li>
                             <li>Improve Reading Comprehension</li>
                             <li>Read Independently</li>
